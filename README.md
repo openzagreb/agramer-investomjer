@@ -1,4 +1,10 @@
-# Barber
+# Investomjer by Agramer
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65fd0614-d814-46f7-8f3d-461136e6b7ae/deploy-status)](https://app.netlify.com/sites/hungry-mayer-8954b3/deploys)
+
+Agramer predstavlja Investomjer mjesto gdje ocjenjujemo učinak javnih investicija Grada Zagreba!
+
+# Barber theme
 Barber is a minimal blog theme built for Jekyll. The blog theme features a masonry grid, endless scrolling, and page transitions. 💈 Barber is also available for [Ghost](https://github.com/samesies/barber-ghost).
 
 ![Barber](https://raw.githubusercontent.com/samesies/barber-jekyll/master/barber.jpg "Barber")
@@ -25,14 +31,14 @@ Barber is a minimal blog theme built for Jekyll. The blog theme features a mason
 Jekyll requires all dependencies to be saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) on your command line after downloading or cloning the theme. You can then run ````bundle exec jekyll serve```` or ````npm start```` to see your development site. Run ````bundle exec jekyll build```` or ````npm run build```` to build a production ready site for deployment.
 
 ### Update Settings
-Almost everything to personalize your site is in the ````_config.yml````. 
+Almost everything to personalize your site is in the ````_config.yml````.
 
 ```
 # Site/SEO settings
 email: okay@samesies.io
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics: 
+google_analytics:
 
 name: Thomas Vaeth
 title: The Barber Theme
@@ -87,7 +93,7 @@ autopages:
   collections:
     enabled: false
   tags:
-    layouts: 
+    layouts:
       - 'tag.html'
     title: 'The Barber Theme'
     permalink: '/tag/:tag'
@@ -106,10 +112,10 @@ All posts go upder the ````_posts```` directory. You can also have a ````_drafts
 layout: post
 title: "Brunch Swag"
 date: 2017-02-18
-description: 
+description:
 image: /assets/images/placeholder-15.jpg
 author: Thomas Vaeth
-tags: 
+tags:
   - XOXO
   - La Croix
 ---
